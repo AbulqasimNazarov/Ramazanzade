@@ -1,20 +1,68 @@
-// C+Beginning.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	/*int num1 = 0;
+	int num2 = 0;
+	cout << "Enter number1: ", cin >> num1;
+	cout << "Enter number2: ", cin >> num2;*/
+
+
+
+	/*int num = 0;
+	cout << "Enter number: ", cin >> num;
+	int hour = num / 3600;
+	int minutes = (num - (hour * 3600)) / 60;
+	int seconds = (num - (hour * 3600)) - (minutes * 60);
+	cout << hour << " h "<< minutes << " m " <<seconds<<" s.";*/
+
+
+
+
+	/*int number = 0;
+	cout << "Enter number: ", cin >> number;
+	cout << number << endl;*/
+
+
+
+
+	//int num = 9;
+	//num = num + 23;
+	//num *= 3;
+
+
+	//++num; //num = num + 1
+	//
+	//cout << ++num << endl;
+	
+	
+
+
+
+
+	/*double num = 9;
+	double num2 = 5;
+	cout << num + num2 << endl;
+	cout << num - num2 << endl;
+	cout << num * num2 << endl;
+	cout << num / num2 << endl;*/
+	//cout << num % num2 << endl;
+
+
+
+
+
+
+	/*int test = 45;
+	string test2 = "56+1";
+	float test3 = 45.8;
+	double test4 = 8.9;
+	char test5 = 'a';
+	bool test6 = true;
+	bool test7 = false;
+	bool test8 = 1;
+	bool test9 = 123;
+	cout << test9 << endl;*/
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
