@@ -3,6 +3,74 @@ using namespace std;
 
 int main()
 {
+	int num1 = 0;
+	int num2 = 0;
+	cout << "Enter num1: ", cin >> num1;
+	cout << "Enter num2: ", cin >> num2;
+
+
+
+	if (num1 > num2)
+	{
+		cout << num1 - num2 << endl;
+	}
+	else {
+		cout << num2 - num1 << endl;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//user vvodit 2 chisla. 
+	// nujno vivesti raznost bolwevo ot menwevo chisla
+
+
+	/*int num1 = 7;
+	bool test = num1 == 8;
+
+	if (num1 == 8) {
+		cout << "Ok" << endl;
+	}
+	else {
+		cout << "Error" << endl;
+
+	}*/
+	
+
+
+
+
+
+	
+
+	//bool test = num1 > num2;
+	//bool test = num1 >= num2;
+	//bool test = num1 <= num2;
+	//bool test = num1 < num2;
+	//bool test = num1 == num2;
+	//bool test = num1 != num2;
+
+	/*float money = 0;
+	float cent = 0;
+	cout << "Enter count: ", cin >> money;
+	cout << int(money) << "dollar " << cent << "cent" << endl;*/
+
+
+
 	/*int num1 = 0;
 	int num2 = 0;
 	cout << "Enter number1: ", cin >> num1;
