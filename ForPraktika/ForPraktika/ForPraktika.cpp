@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     // User vvodit dlinu kateta ravnobedrennovo treuqolnika, na ekran vivoditsa treuqolnik iz *
-    int length = 0;
+    /*int length = 0;
     cout << "Enter length: ", cin >> length;
     for (int i = 0; i <= length; i++)
     {
@@ -23,5 +23,5 @@ int main()
             cout << "*";
         }
         cout << endl;
-    }
+    }*/
 }
