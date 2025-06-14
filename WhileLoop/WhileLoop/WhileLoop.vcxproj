@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{26f34f56-19af-42d6-ae65-6254ed49de57}</ProjectGuid>
+    <ProjectGuid>{08f885d3-c1e2-4bff-bb2a-d9dc021e08dd}</ProjectGuid>
     <RootNamespace>WhileLoop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

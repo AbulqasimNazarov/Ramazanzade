@@ -1,65 +1,53 @@
 #include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
+
+/*int num1 = 90;*/ //qlobalnaya peremennaya
+
+
+
 
 int main()
 {
-    int result = 0;
-    int num = 0;
-    cout << "Enter num: ", cin >> num;
-    int i = 1;
-    while (i<=num)
-    {
-        result = result + i;
-        i++;
-    }
-    cout << result << endl;
-
-
-    /*int num1 = 9;
-    int num2 = 8;
-    int num3 = 83;
-    int num4 = 82;
-    int num5 = 1;
-
-    int result = 0;
-    result = result + num1;
-    result = result + num2;
-    result = result + num3;
-    cout << result << endl;*/
 
 
 
-    /*int i = 0;
-    
-    while (i<13)
-    {
-        if (i == 9)
-        {
-            cout << i << endl;
-        }
-        
-        
-        i++;
-    }*/
+	/*int i = 0;
+	int j = 0;
+	while (i<4)
+	{
+		while (j<6)
+		{
+			cout << "*";
+			j++;
+		}
+		j = 0;
+		cout << endl;
+		i++;
+	}*/
 
 
 
 
-    /*int i = 5;
 
-    while (true)
-    {
-        if (i < 13)
-        {
-            cout << "Hello" << endl;
-            
-        }
-        else {
-            break;
-        }
-        i++;
-        
-    }*/
+	/*while (true)
+	{
+		while (true)
+		{
+			if (true)
+			{
+				cout << "WORLD" << endl;	
+				continue;
+			}
+			cout << "Hello" << endl;
+			break;
+		}
+		cout << "Bye" << endl;
+		break;
+		
+	}*/
 
 
 
@@ -69,34 +57,92 @@ int main()
 
 
 
-    /*int num1 = 0;
-    while (true)
-    {
-        if (num1 == 0)
-        {
-            cout << "Break 1" << endl;
-            break;
-            cout << "Break 2" << endl;
-        }
-        else {
-            cout << "Continue 1" << endl;
-            continue;
-            cout << "Continue 2" << endl;
-        }
-    }*/
+	/*---------RANDOM-----------*/
+	/*srand(time(0));
+	int num = rand() % 10;
+	cout << "Enter number : ", cin >> num;*/
+	/*---------RANDOM-----------*/
+	
+	
+	
 
 
 
 
+	/*int num = 0;
+	int i = 0;
+	cout << "Enter start num :", cin >> i;
+	cout << "Enter end num :", cin >> num;
+	while (i < num)
+	{
+		if (i % 2 !=0)
+		{
+			cout << i << endl;
+		}
+		i++;
+	}*/
 
 
-    /*bool test = true;
-    
 
-    while (test) {
-        cout << "Hello" << endl;
-        cout << "world" << endl;
-        test = false;
-    }*/
+	/*int i = 0;
+	while (i < 100)
+	{
+		if (i % 2 != 0)
+		{
+			cout << i << endl;
+		}
+
+		i++;
+	}*/
+
+
+
+
+	/*int i = 1;
+	while (i < 100)
+	{
+		if (i % 10 == 0)
+		{
+			cout << i << endl;
+		}
+		i++;
+	}*/
+	
+
+
+
+
+	//int CavadAge = 14;
+	//int classGrade = 8;
+	//while (false)
+	//{
+	//	cout << "Cavad xodit na "<< classGrade << " klass" << endl;
+	//	classGrade++;
+	//	CavadAge = CavadAge + 1;
+	//	//CavadAge += 1;
+	//	//CavadAge++;
+	//}
+
+
+
+
+	/*cout << num1 << endl;
+	int num3 = 90;
+	if (true)
+	{
+		cout << num3 << endl;
+		int num2 = 89;
+	}
+	
+	cout << num2 << endl; */
+
+
+    /*bool cap = true;
+
+	if (8>11 && 4>8 && 5!=9 || 8>9 or 5==2)
+	{
+
+	}*/
+	
 }
 
